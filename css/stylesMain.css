@@ -1,0 +1,175 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  overflow: hidden;
+}
+@font-face {
+  font-family: Xenotron;
+  src: url(/css/fonts/17785.ttf);
+}
+
+@font-face {
+  font-family: ApexMk;
+  src: url(/css/fonts/20051.ttf);
+}
+
+.image-parallax-sky {
+  position: absolute;
+  background-image: url("/css/images/sloy5.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 110%;
+  height: 110%;
+  transition: all 0.1s ease;  
+}
+.images-parallax-moon{
+  position: absolute;
+  background-image: url("/css/images/sloy4.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 110%;
+  height: 110%;
+  transition: all 0.1s ease; 
+}
+ .images-parallax-mountains{
+  margin-top: -5%;
+  position: absolute;
+  background-image: url("/css/images/sloy3.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  width: 120%;
+  height: 120%;
+  transition: all 0.1s ease; 
+}
+.images-parallax-girl{
+  position: absolute;
+  background-image: url("/css/images/sloy2.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 110%;
+  height: 110%;
+  transition: all 0.1s ease; 
+}
+.images-parallax-mountain-one {
+  position: absolute;
+  background-image: url("/css/images/sloy1.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 120%;
+  height: 120%;
+  transition: all 0.1s ease;
+} 
+
+.come-back-menu{
+  position: absolute;
+  margin-top: 30px;
+  right: 10px;
+  z-index: 1;
+  width: 70px;
+  text-align: center;
+}
+.come-back {
+  width: 10px;
+  height: 10px;
+  border-top: 3px solid rgba(240, 248, 255, 0.879);
+  border-right: 3px solid rgba(240, 248, 255, 0.879);
+  margin-right: 60px;
+  transform: rotate(-135deg);
+  right: 30px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.come-back-menu .back {
+  right: 15px;
+  position: absolute;
+  font-size: 20px;
+  font-family: ApexMk;
+  margin-top: -20px;
+  text-decoration: none;
+  color: rgba(240, 248, 255, 0);
+  transition: 0.4s;
+}
+
+.come-back-menu:hover .back {
+  color: rgba(240, 248, 255, 0.879);
+  text-shadow: 0 0 5px rgb(234, 232, 232);
+
+}
+/* .come-back-menu:hover .come-back {
+  border-top: 3px solid rgba(0, 0, 0, 0.879);
+  border-right: 3px solid rgba(0, 0, 0, 0.879);
+  box-shadow: 0 0 5px white;
+} */
+
+
+.content {
+  position: absolute;
+  left: 10px;
+  z-index: 1;
+}
+.content h2 {
+  margin: 50px;
+  font-family: Xenotron;
+  font-size: 70px;
+  color: rgba(240, 248, 255, 0.879);
+}
+.content .buttons{
+  position: relative;
+  margin-top: 350px;
+  font-size: 30px;
+  left: 70px;  
+}
+.content .buttons a{
+  font-family: ApexMk;
+  display: inline-block;
+  text-decoration: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  overflow: hidden;
+  border-width: 50px;
+  color: rgba(240, 248, 255, 0.879);
+  transition: 1s;
+}
+
+.button-line {
+  position: relative;
+  display: block;
+  transition: 0.25s;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+}
+.buttons :hover {
+  color: white;
+  text-shadow: 0 0 5px rgb(234, 232, 232);
+}
+.buttons :hover .button-one {
+  left: 0;
+  transition: 1s;
+  transition-delay: .4s;
+  background:  rgb(215, 243, 247);
+  box-shadow: 0 -2px 2px white;
+}
+.buttons :hover .button-two {
+  left: 0;
+  transition: 1s;
+  transition-delay: .4s;
+  background:  rgb(215, 243, 247);
+  box-shadow: 0 -2px 2px white;
+}
+.buttons :hover .button-three {
+  left: 0;
+  transition: 1s;
+  transition-delay: .4s;
+  background:  rgb(215, 243, 247);
+  box-shadow: 0 -2px 2px white;
+}
+
